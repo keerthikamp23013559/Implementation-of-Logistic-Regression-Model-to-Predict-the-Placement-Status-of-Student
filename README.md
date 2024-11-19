@@ -5,11 +5,13 @@ To write a program to implement the the Logistic Regression Model to Predict the
 1. Hardware – PCs
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 ## Algorithm
-1. import required python library
-2. load the data set and do the necessary preprocessing steps
-3. use lable encoder to convert string into integer
-4. split the data for training and testing
-5. use logisticregression to do the classification 
+1. Predict placement status (1: placed, 0: not placed)
+2. Import dataset with student details and placement status.
+3. Handle missing values, encode categorical features, split into features (X) and target (y).
+4. Split data into training and testing sets.
+5. Standardize numerical features for uniform contribution.
+6. Fit a logistic regression model using the training data.
+7. Use test data to predict and evaluate using metrics like accuracy, confusion matrix, and classification report.
 ## Program:
 ```
 /*
